@@ -29,3 +29,5 @@ print("the names are %s%s" % (firstname, lastname))
 # TODO: store your first and last names as variables
 # then print your name in two different ways,
 # one with last name first and the other with first name first
+# use fake names and disguise your voice
+
