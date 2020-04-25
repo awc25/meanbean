@@ -2,6 +2,7 @@
 
 # if you want to print out a string, it must be in quotes
 print("beans, beans, beans")
+print("Lyra, Lyra, Lyra")
 
 # define variables with single equal sign
 num_rows = 20
