@@ -3,11 +3,13 @@ invited_people = ["Arwen", "Fatima", "Andrew", "Lyra"]
 
 # Here is how to see the third element in the list:
 # Why did I say "2" and not "3"?
-print("The third element is: %s" % invited_people[2])
+print("The fourth element is: %s" % invited_people[3])
 
 # Here is how you add something to the end of a list.
 # Notice the use of the dot here.
 invited_people.append("Stimpy")
+invited_people.remove("Arwen")
+invited_people.append("Emily")
 
 # A string in python is itself a list - a list of individual characters!
 # Here, I print out the second letter in a string
@@ -22,7 +24,9 @@ print("The last letter of my name is: '%c'" % my_name[-1])
 # invited_people is the list.
 # person is a variable whose value changes as you iterate.
 for person in invited_people:
-    print("%s in invited." % person)
+#    print("%s in invited." % person)
+    print("%c is first letter" % person [0])
+
 
 # You can get the length of a list like this:
 print("A total of %d people are invited." % len(invited_people))
